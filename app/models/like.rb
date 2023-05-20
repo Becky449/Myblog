@@ -4,6 +4,8 @@ class Like < ApplicationRecord
 
   after_create :updatelikescounter
 
+  private
+
   def updatelikescounter
     post.increment!(:likescounter)
   end
