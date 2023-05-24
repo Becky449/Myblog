@@ -36,9 +36,10 @@ ul {
   border: 5px solid;
 }
 
-.photo {
-  width: 9px;
-  height: 12px;
+.photo,
+img {
+  width: 3em;
+  height: 4.5em;
 }
 
 .name_post {
