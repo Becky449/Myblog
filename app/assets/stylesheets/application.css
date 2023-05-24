@@ -36,7 +36,8 @@ ul {
   border: 5px solid;
 }
 
-.photo, img {
+.photo,
+  img {
   width: 3em;
   height: 4.5em;
 }
